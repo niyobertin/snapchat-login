@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+#fullCOntent{
+    background-color: white;
+    margin-left:35% ;
+    margin-right: 35%;
+    height: 90vh;
+}
+
+#headSwection{
+    background-color: yellow;
+    height: 7vh;
+    width: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+#title,#loginVia,#login-button,#or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logiViagoogle{
+    background-color: black;
+    color: yellow;
+    width: 30VH;
+    height: 5VH;
+    align-items: center;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+#login{
+    background-color: rgb(180, 169, 169);
+    color: white;
+    width: 30VH;
+    height: 5VH;
+    align-items: center;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;   
+}
+#loginForm{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: auto;
+}
+.users {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+.user_fild {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+  font-size: 2vh;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .user_label {
+    font-size: 2vh;
+    cursor: text;
+    top: 30px;
+  }
+}
+.password_fild {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: 0;
+    font-size: 2vh;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+    &::placeholder {
+      color: transparent;
+    }
+  
+    &:placeholder-shown ~ .password_label {
+      font-size: 2vh;
+      cursor: text;
+      top: 30px;
+    }
+}
+
+.user_label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1em;
+}
+.password_label{
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1em; 
+}
+
+.user_fild:focus {
+  ~ .user_label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 2vh;
+    color: rgb(147, 147, 147);
+  }
+  padding-bottom: 6px;  
+  font-weight: 70;
+  border-width: 3px;
+  border-image-slice: 1;
+}
+/* /*transition of lable */
+.password_fild:focus {
+    ~ .password_label {
+        position: absolute;
+        top: 0;
+        display: block;
+        transition: 0.2s;
+        font-size: 2vh;
+        color: rgb(147, 147, 147);
+      }
+      padding-bottom: 6px;  
+      font-weight: 70;
+      border-width: 3px;
+      border-image-slice: 1;  
+}
+/* reset input */
+.user_fild{
+  &:required,&:invalid { box-shadow:none; }
+}
+.password_fild{
+    &:required,&:invalid { box-shadow:none; }  
+}
+
+#ressert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#forgetEmail{
+    display: flex;
+    justify-content: end;
+    font-size: small;
+}
+
