@@ -1,9 +1,15 @@
 body{
     background-color: rgb(236, 236, 236);
+    background-color: rgb(244, 244, 244);
 }
 #fullCOntent{
-    background-color: white;
+    background-color:white;
     height: 90vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    
 }
 
 #headSwection{
@@ -174,13 +180,27 @@ a{
     font-size: small;
 }
 
-/*all three format in one page*/
-#iphone{
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 10px;
+/*Resposive*/
+@media screen and (max-device-width: 800px) {
+  body{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+  }
+  #fullCOntent{
+    background-color:white;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+    
 }
+}
+
+
 
 
 
